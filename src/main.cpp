@@ -56,6 +56,7 @@ String readStringFromEEPROM(int addrOffset, int str_len)
   Serial.println(data);
   return String(data);
 }
+//Git test
 
 void readParamsFromEEPROM()
 {
